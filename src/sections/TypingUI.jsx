@@ -109,7 +109,7 @@ const TypingUI = () => {
           {countDown}
         </h1>
       </div>
-      <div className="w-[1350px] h-[350px] bg-transparent bg-gray-400 rounded-md p-4">
+      <div className="w-[1350px] h-[370px] bg-slate-200 rounded-md p-4">
         {gameStatus === "started" ? (
           <p className="text-xl text-gray-800 text-center font-semibold tracking-wide">
             {words.map((word, i) => (
