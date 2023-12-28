@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer body{
+  body {
+    @apply  bg-purple-800 flex justify-center items-center m-auto w-full h-[100vh];
+  }
+}
