@@ -109,9 +109,9 @@ const TypingUI = () => {
           {countDown}
         </h1>
       </div>
-      <div className="w-[1300px] h-[330px] bg-transparent bg-gray-200 rounded-md p-4">
+      <div className="w-[1350px] h-[370px] bg-transparent bg-gray-200 rounded-md p-4">
         {gameStatus === "started" ? (
-          <p className="text-lg text-gray-700 text-center font-medium">
+          <p className="text-xl text-gray-800 text-center font-semibold tracking-wide">
             {words.map((word, i) => (
               <span key={i}>
                 <span>
